@@ -1,0 +1,29 @@
+# C++ style of fr3_mating_controllers and fr3_tracking (object_pose_cpp has
+# its own). Checked by ament_clang_format in colcon test.
+BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 100
+AccessModifierOffset: -4
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: true
+  AfterFunction: true
+  AfterStruct: true
+  AfterEnum: false
+  AfterNamespace: false
+  AfterControlStatement: Never
+  BeforeElse: false
+  BeforeCatch: false
+  SplitEmptyFunction: false
+DerivePointerAlignment: false
+PointerAlignment: Right
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Never
+ReflowComments: false
+SortIncludes: false
+IncludeBlocks: Preserve
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 4
+BreakStringLiterals: false

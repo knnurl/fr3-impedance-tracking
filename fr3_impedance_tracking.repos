@@ -1,0 +1,12 @@
+# Source dependencies: vcs import src < fr3_impedance_tracking.repos
+# (libfranka comes from apt as ros-humble-libfranka through rosdep; its version
+# must match the robot's system version - see Franka's compatibility table.)
+repositories:
+  franka_ros2:
+    type: git
+    url: https://github.com/frankarobotics/franka_ros2.git
+    version: v2.0.4
+  franka_description:
+    type: git
+    url: https://github.com/frankarobotics/franka_description.git
+    version: 1.0.1

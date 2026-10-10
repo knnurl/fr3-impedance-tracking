@@ -1,0 +1,9 @@
+# object_pose_cpp keeps Google style (2-space indent).
+BasedOnStyle: Google
+ColumnLimit: 100
+ReflowComments: false
+SortIncludes: false
+IncludeBlocks: Preserve
+DerivePointerAlignment: false
+PointerAlignment: Left
+BreakStringLiterals: false

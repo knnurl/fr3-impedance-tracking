@@ -1,0 +1,12 @@
+fr3-impedance-tracking
+Copyright 2026 Kaan Ural
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Third-party material
+--------------------
+hardware/camera_mount/franka_D405_camera_mount.step
+  "Realsense D405 Camera Mount for Franka Robot Arms" by Lele Burger,
+  https://makerworld.com/en/models/1925363-realsense-d405-camera-mount-for-franka-robot-arms
+  Licensed under Creative Commons Attribution 4.0 (CC BY 4.0), unmodified.
+  It is NOT covered by the Apache License of this repository.
